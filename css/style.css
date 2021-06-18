@@ -3,10 +3,41 @@ p { font-weight: 400;
 font-family: 'Shadows Into Light', cursive;
 font-family: 'Source Code Pro', monospace;
 }
-p.fuentediferente {font-family: 'Dancing Script', cursive;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Source Code Pro', monospace; }
+p.fuentediferente{font-family: 'Coming Soon';
+    font-size: 40px;
+ }
+
+ p.fuente-netx { font-family: 'Bebas Neue', sans-serif;}
+ p.fuente-next2 { color:red;
+font-size: 60px;
+font-family: 'Bebas Neue', sans-serif;}
 
 h1 {font-style: italic;
     font-size: 50px;
 }
+/* bebas-neue-regular - latin */
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/bebas-neue-v2-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/bebas-neue-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bebas-neue-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bebas-neue-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/bebas-neue-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bebas-neue-v2-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
+  }
+  /* coming-soon-regular - latin */
+@font-face {
+    font-family: 'Coming Soon';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/coming-soon-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/coming-soon-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/coming-soon-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/coming-soon-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/coming-soon-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/coming-soon-v12-latin-regular.svg#ComingSoon') format('svg'); /* Legacy iOS */
+  }

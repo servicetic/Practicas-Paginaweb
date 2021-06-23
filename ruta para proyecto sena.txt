@@ -1,3 +1,0 @@
-cd /C/Users/Administrador/Documents/mi_primerapagina_web
-
-C:\Users\Administrador\Documents\mi_primerapagina_web
